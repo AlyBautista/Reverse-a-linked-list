@@ -1,1 +1,1 @@
-# Reverse-a-linked-list
+I start with prev set to null and current set to the head. Then, while the list is not finished, I store the next node, reverse the link to point back to prev, move prev forward to the current node, and move current forward to the next node. When the loop ends, prev is the new head, so I return it.
